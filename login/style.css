@@ -1,0 +1,67 @@
+@import "reset.css";
+
+body {
+    background: url("bg.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form__header {
+    width: 50%;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    border-bottom: 5px solid #4caf50;
+    color: white;
+}
+
+.login-form__password,
+.login-form__text {
+    padding: 10px 0px;
+    border-bottom: 1px solid #4caf50;
+    margin-bottom: 10px;
+}
+
+.login-form__password i,
+.login-form__text i{
+    color: white;
+    margin-right: 5px;
+}
+
+.login-form__password input,
+.login-form__text input{
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);    
+    caret-color: white;
+    color: white;
+}
+
+.login-form__password input::placeholder,
+.login-form__text input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.login-form__submit {
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    border: 1px solid #4caf50;
+    background-color: rgba(0, 0, 0, 0);  
+    transition: 0.3s ease-in-out;
+}
+
+.login-form__submit:hover {
+    background-color: #4caf50;
+}

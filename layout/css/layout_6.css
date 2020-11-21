@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.header {
+    height: 140px;
+    background-color: #ffe1e4;
+}
+
+.banner {
+    height: 450px;
+    background-color: #fbd6e3;
+}
+
+.contents {
+    height: 950px;
+    background-color: #ead5ee;
+}
+
+.footer {
+    height: 220px;
+    background-color: #d6ebfd;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+    height: inherit;
+    background-color: rgba(0,0,0,0.2);
+    line-height: inherit;
+}

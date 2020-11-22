@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: blueviolet;
+      }
+
+      /* wrap의 자식요소들이 inline이므로, text-align을 통해 요소들을 가운데 정렬함 */
+      .wrap {
+        text-align: center;
+      }
+
+      .dot1 {
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+
+        color: white;
+        font-size: 25px;
+
+        /* 텍스트를 가운데 정렬하기 위한 속성 */
+        text-align: center;
+        line-height: 100px;
+
+        /* inline 속성을 가진 block 요소로 바꿈 */
+        display: inline-block;
+
+        /* .dot1 요소는 text로 인식이 되므로, div 태그간의 enter 입력때문에 사이에 빈공간이 생김 */
+        margin: 0 -3px;
+      }
+    </style>
+    <title>여러 div 가로 가운데 정렬</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="dot1">1</div>
+      <div class="dot1">2</div>
+      <div class="dot1">3</div>
+      <div class="dot1">4</div>
+      <div class="dot1">5</div>
+      <div class="dot1">6</div>
+      <div class="dot1">7</div>
+      <div class="dot1">8</div>
+    </div>
+  </body>
+</html>

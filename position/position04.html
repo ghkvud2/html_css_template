@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: blueviolet;
+      }
+
+      /* negative 방법은, width, height 값이 변경될때마다 수정해줘야한다.*/
+      .center1 {
+        background-color: tomato;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 50%;
+        margin-top: -150px;
+        left: 50%;
+        margin-left: -150px;
+      }
+
+      .center2 {
+        background-color: violet;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 500px;
+        height: 500px;
+        margin: auto;
+      }
+    </style>
+    <title>div 가로세로 모두 가운데 정렬</title>
+  </head>
+  <body>
+    <!-- <div class="center1">WOW</div> -->
+    <div class="center2">WOW</div>
+  </body>
+</html>

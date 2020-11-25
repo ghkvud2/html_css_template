@@ -1,0 +1,106 @@
+@import "reset.css";
+@import "variable.css";
+
+.header-container{
+    height: 325px;
+    background-color: tomato;
+    background: url("../img/header_bg.jpg") repeat-x center top;
+}
+
+.header {
+    width: 990px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.header-bar {
+    height: 50px;
+    text-align: right;
+}
+
+.header-menu {
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.header-menu:hover {
+    color: #333;
+}
+
+.header-menu:last-child {
+    margin-right: 10px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-title {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    margin-bottom: 20px;
+}
+
+.header-subtitle {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+.header-icons {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header-icons a {
+    width: 60px;
+    height: 60px;
+    background: url("../img/icon.png");
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+/* CSS 우위선택자 */
+/* .header-icons_icon1만 쓰면 안먹음  */
+.header-icons .header-icons_icon1 {
+    background-position: 0px 0px;
+}
+
+.header-icons .header-icons_icon2 {
+    background-position: 0px -60px;
+}
+
+.header-icons .header-icons_icon3 {
+    background-position: 0px -120px;
+}
+
+.header-icons .header-icons_icon4 {
+    background-position: 0px -180px;
+}
+
+
+.header-icons_icon1:hover {
+    background-position: -60px 0px;
+}
+
+.header-icons_icon2:hover {
+    background-position: -60px -60px;
+}
+
+.header-icons_icon3:hover {
+    background-position: -60px -120px;
+}
+
+.header-icons_icon4:hover {
+    background-position: -60px -180px;
+}
+
+
+

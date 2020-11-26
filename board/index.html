@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" /><!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script&display=swap" rel="stylesheet" />
     <title>웹 표준 게시판</title>
   </head>
   <body>
@@ -36,7 +38,83 @@
     </header>
 
     <!-- 메인 (배너, 컨텐츠) -->
-    <main class="main"></main>
+    <main class="main-container">
+      <div class="menu-bar-container sub-container">
+        <div class="menu-bar">
+          <div class="menu-bar__menu">
+            <ul class="menu-bar__item">
+              <h3 class="menu-bar__header">HTML Reference</h3>
+              <li><a class="menu-bar__content" href="#">HTML 태그(Tag)</a></li>
+              <li><a class="menu-bar__content" href="#">블록 요소/인라인 요소</a></li>
+              <li><a class="menu-bar__content" href="#">DTD 선언</a></li>
+              <li><a class="menu-bar__content" href="#">언어 속성 설정</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;title&gt;</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;meta&gt;</a></li>
+              <li><a class="menu-bar__content" href="#">특수문자</a></li>
+              <li><a class="menu-bar__content" href="#">하이퍼 링크</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;html&gt;</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;head&gt;</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;div&gt;</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;colgroup&gt;</a></li>
+              <li><a class="menu-bar__content" href="#">HTML &lt;caption&gt;</a></li>
+            </ul>
+          </div>
+          <div class="menu-bar__menu">
+            <ul class="menu-bar__item">
+              <h3 class="menu-bar__header">CSS Reference</h3>
+              <li><a href="#" class="menu-bar__content">CSS 선택자</a></li>
+              <li><a href="#" class="menu-bar__content">CSS 단위</a></li>
+              <li><a href="#" class="menu-bar__content">CSS 색상</a></li>
+              <li><a href="#" class="menu-bar__content">CSS 선언 방법</a></li>
+              <li><a href="#" class="menu-bar__content">상대주소와 절대주소</a></li>
+              <li><a href="#" class="menu-bar__content">CSS float</a></li>
+              <li><a href="#" class="menu-bar__content">이미지 표현 방법</a></li>
+              <li><a href="#" class="menu-bar__content">이미지 스프라이트</a></li>
+              <li><a href="#" class="menu-bar__content">IR 효과</a></li>
+              <li><a href="#" class="menu-bar__content">이미지 최적화</a></li>
+              <li><a href="#" class="menu-bar__content">background-color</a></li>
+              <li><a href="#" class="menu-bar__content">border-style</a></li>
+              <li><a href="#" class="menu-bar__content">font-size</a></li>
+              <li><a href="#" class="menu-bar__content">text-align</a></li>
+            </ul>
+          </div>
+          <div class="menu-bar__menu">
+            <ul class="menu-bar__item">
+              <h3 class="menu-bar__header">Web Standard</h3>
+              <li><a href="#" class="menu-bar__content">웹 표준</a></li>
+              <li><a href="#" class="menu-bar__content">웹 접근성</a></li>
+              <li><a href="#" class="menu-bar__content">W3C</a></li>
+              <li><a href="#" class="menu-bar__content">웹 접근성 연구소</a></li>
+              <li><a href="#" class="menu-bar__content">네이버 널리</a></li>
+              <li><a href="#" class="menu-bar__content">다음 다룸</a></li>
+              <li><a href="#" class="menu-bar__content">Webstandard</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="banner-header-container">
+        <div class="banner-header sub-container">
+        <h3 class="banner-header--title">"나는 퍼블리셔다"</h3>
+          <a class="banner-header--btn" href="#"><span class="ir_pm">메뉴펼치기</span></a>
+        </div>
+      </div>
+
+      <div class="banner-content-container">
+        <div class="banner-content sub-container">
+          <div>
+            <a href="#" class="banner-content--prev"><span class="ir_pm">이전으로 가기</span></a>
+            <ul class="banner-content--slide">
+              <li class="aa banner-content--list"><img class="banner-content--item" src="./img/banner_link1.jpg" alt="웹 표준 지침서 보기" class="banner-content--item"></li>
+              <li class="bb banner-content--list"><img class="banner-content--item" src="./img/banner_link2.jpg" alt="CSS를 이용한 입체적인 버튼 만들기" class="banner-content--item"></li>
+            </ul>
+            <a href="#" class="banner-content--next"><span class="ir_pm">다음으로 가기</span></a>
+          </div>
+        </div>
+      </div> 
+      </div>
+    </main>
     <!-- //메인 (배너, 컨텐츠) -->
   </body>
 </html>

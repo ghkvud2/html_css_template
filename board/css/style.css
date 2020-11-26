@@ -1,106 +1,108 @@
 @import "reset.css";
 @import "variable.css";
+@import "header.css";
+@import "menu-bar.css";
 
-.header-container{
-    height: 325px;
-    background-color: tomato;
-    background: url("../img/header_bg.jpg") repeat-x center top;
-}
-
-.header {
-    width: 990px;
-    height: inherit;
+.main-container {
     margin: 0 auto;
-    background-color: rgba(255,255,255,0.3);
 }
 
-.header-bar {
-    height: 50px;
+.sub-container {
+    margin: 0 auto;
+    width: var(--main-width);
+}
+
+.banner-header-container {
+    height: 60px;
+    background-color: #eaf7fd;
+}
+
+.banner-header {
+    position: relative;
+}
+
+.banner-header--title{
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    color:#249BD3;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.banner-header--btn {
+    width: 60px;
+    height: 60px;
+    background: url("../img/icon.png") 0px -600px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.banner-content-container {
+    background-color: #dceff7;
+    padding: 20px;
+}
+
+.banner-content {
+    position: relative;
+}
+
+/* flot:left 속성때문에, 부모에 overflow:hidden 값을 줘야하는데 
+   그렇게되면, [이전], [다음] 버튼이 가려져서 어쩔 수 없이 div 태그 하나 더 추가함..
+*/
+.banner-content > div {
+    overflow: hidden;
+}
+
+.banner-content--prev {
+    width: 43px;
+    height: 43px;
+    background: url("../img/icon.png") no-repeat -150px 0px;
+    position: absolute;
+    top: 40px;
+    left: -50px;
+}
+
+.banner-content--prev:hover {
+    background: url("../img/icon.png") no-repeat -193px 0px;
+}
+
+.banner-content--next {
+    width: 43px;
+    height: 43px;
+    background: url("../img/icon.png") no-repeat -150px -43px;
+    position: absolute;
+    top: 40px;
+    right: -50px;
+}
+
+.banner-content--next:hover {
+    background: url("../img/icon.png") no-repeat -193px -43px;
+}
+.banner-content--slide {
+    padding: 0px 20px;
+    overflow: hidden;
+}
+
+.banner-content--list{
+    float: left;
+    width: 50%;
+    /* text-align: center; */
+}
+
+.banner-content--list:first-child{
+    text-align: left;
+}
+
+.banner-content--list:last-child{
     text-align: right;
 }
 
-.header-menu {
-    font-size: 16px;
-    color: white;
-    display: inline-block;
-    margin-left: 10px;
-    margin-top: 10px;
+.banner-content--item {
+    border: 4px solid #dcdcdc;
 }
 
-.header-menu:hover {
-    color: #333;
+.banner-content--item:hover {
+    border: 4px solid #98bcbc;
 }
-
-.header-menu:last-child {
-    margin-right: 10px;
-}
-
-.header-content {
-    text-align: center;
-}
-
-.header-title {
-    font-size: 30px;
-    color: white;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 20px 0px;
-    margin-bottom: 20px;
-}
-
-.header-subtitle {
-    font-size: 25px;
-    color: white;
-    font-weight: 400;
-}
-
-.header-icons {
-    margin-top: 50px;
-    text-align: center;
-}
-
-.header-icons a {
-    width: 60px;
-    height: 60px;
-    background: url("../img/icon.png");
-    display: inline-block;
-    margin: 0px 20px;
-}
-
-/* CSS 우위선택자 */
-/* .header-icons_icon1만 쓰면 안먹음  */
-.header-icons .header-icons_icon1 {
-    background-position: 0px 0px;
-}
-
-.header-icons .header-icons_icon2 {
-    background-position: 0px -60px;
-}
-
-.header-icons .header-icons_icon3 {
-    background-position: 0px -120px;
-}
-
-.header-icons .header-icons_icon4 {
-    background-position: 0px -180px;
-}
-
-
-.header-icons_icon1:hover {
-    background-position: -60px 0px;
-}
-
-.header-icons_icon2:hover {
-    background-position: -60px -60px;
-}
-
-.header-icons_icon3:hover {
-    background-position: -60px -120px;
-}
-
-.header-icons_icon4:hover {
-    background-position: -60px -180px;
-}
-
-
-

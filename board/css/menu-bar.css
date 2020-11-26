@@ -1,0 +1,43 @@
+.menu-bar {
+    overflow: hidden;
+}
+
+.menu-bar__menu{
+    float: left;
+    width: 40%;
+    padding: 20px 0px;
+}
+
+.menu-bar__menu:last-child {
+    width: 20%;
+}
+.menu-bar__item {
+    overflow: hidden;
+}
+
+.menu-bar__item li {
+    width: 45%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.menu-bar__menu:last-child li {
+    width: 100%;
+}
+
+
+.menu-bar__header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #65B6DE;
+}
+
+.menu-bar__content {
+    font-size: 14px;
+}
+
+.menu-bar__content:hover{
+    color: #259DD2;
+    font-weight: 600;
+}

@@ -101,7 +101,7 @@
 }
 
 .board-content--type1 .more,
-.board-content--type2 .more {
+.board-content--type2 .more{
     width: 17px;
     height: 17px;
     position: absolute;
@@ -171,4 +171,88 @@
 
 .board-content--type3 h4 {
     margin: 0px;
+}
+
+.board-content--type4 {
+    margin-top: 10px;
+    position: relative;
+    border: 1px solid #d0d0d0;
+}
+
+.board-content--type4 h4 {
+    padding: 5px 3px;
+    border-bottom: 1px solid #d0d0d0;
+    color: #0093bd;
+    font-weight: 600;
+}
+
+.board-content--type4 h4 span {
+    color: #cf3292;
+}
+
+.board-content--type4 .more {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+}
+
+.board-content--type4 ul {
+    padding: 5px;
+}
+
+.board-content--type4 ul li{
+    overflow: hidden;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.board-content--type4 ul li a{
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+    width: 60%;
+}
+.board-content--type4 ul li span{
+    float: right;
+    text-align: right;
+    width: 40%;
+}
+
+
+/* 탭메뉴 */
+
+.board-content--type5 {
+    margin-top: 5px;
+    border: 1px solid #d0d0d0;
+    position: relative;
+    height: 120px;
+}
+
+.board-content--type5 ul {
+    overflow: hidden;
+}
+
+.board-content--type5 ul li {
+    float: left;
+}
+
+.board-content--type5 ul li a{
+    font-size: 14px;
+}
+
+.board-content--type5 ul li ul{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100%;
+}
+
+
+.board-content--type5 ul li ul li a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }

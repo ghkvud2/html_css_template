@@ -1,10 +1,3 @@
-@import "./board/board1.css";
-@import "./board/board2.css";
-@import "./board/board3.css";
-@import "./board/board4.css";
-@import "./board/board5.css";
-@import "./board/board6.css";
-
 
 .board-container {
     overflow: hidden;
@@ -89,5 +82,93 @@
 }
 
 .board-content {
-    height: 250px;
+    height: 300px;
+}
+
+.board-content--type1,
+.board-content--type2,
+.board-content--type3 {
+    position: relative;
+}
+
+.board-content--type1 h4,
+.board-content--type2 h4,
+.board-content--type3 h4 {
+    color: #2c94c4;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.board-content--type1 .more,
+.board-content--type2 .more {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: url("../../img/icon.png") no-repeat -150px -90px;
+}
+
+.board-content--type1 ul li,
+.board-content--type2 ul li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+    background: url("../../img/dot.gif") no-repeat 0 8px;
+    padding-left: 8px;
+    font-size: 14px;    
+}
+
+.board-content--type2 ul li a {
+    width: 65%;
+    text-align: left;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.board-content--type2 ul li span {
+    width: 30%;
+    text-align: right;
+    float: right;
+}
+
+.board-content--type3 ul {
+    margin-top: 10px;
+}
+
+.board-content--type3 ul li {
+    position: relative;
+    padding : 10px 0px 10px 50px;
+    margin-bottom: 20px;
+}
+
+.board-content--type3 ul li a img {
+    width: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid #0093bd;
+}
+
+.board-content--type3 ul li h4{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+.board-content--type3 ul li span{
+    padding-left: 10px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.board-content--type3 h4 {
+    margin: 0px;
 }

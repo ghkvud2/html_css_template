@@ -2,6 +2,8 @@
 @import "variable.css";
 @import "header.css";
 @import "menu-bar.css";
+@import "banner.css";
+@import "board.css";
 
 .main-container {
     margin: 0 auto;
@@ -10,99 +12,4 @@
 .sub-container {
     margin: 0 auto;
     width: var(--main-width);
-}
-
-.banner-header-container {
-    height: 60px;
-    background-color: #eaf7fd;
-}
-
-.banner-header {
-    position: relative;
-}
-
-.banner-header--title{
-    text-align: center;
-    line-height: 60px;
-    font-size: 40px;
-    color:#249BD3;
-    font-family: 'Nanum Brush Script', cursive;
-}
-
-.banner-header--btn {
-    width: 60px;
-    height: 60px;
-    background: url("../img/icon.png") 0px -600px;
-    float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.banner-content-container {
-    background-color: #dceff7;
-    padding: 20px;
-}
-
-.banner-content {
-    position: relative;
-}
-
-/* flot:left 속성때문에, 부모에 overflow:hidden 값을 줘야하는데 
-   그렇게되면, [이전], [다음] 버튼이 가려져서 어쩔 수 없이 div 태그 하나 더 추가함..
-*/
-.banner-content > div {
-    overflow: hidden;
-}
-
-.banner-content--prev {
-    width: 43px;
-    height: 43px;
-    background: url("../img/icon.png") no-repeat -150px 0px;
-    position: absolute;
-    top: 40px;
-    left: -50px;
-}
-
-.banner-content--prev:hover {
-    background: url("../img/icon.png") no-repeat -193px 0px;
-}
-
-.banner-content--next {
-    width: 43px;
-    height: 43px;
-    background: url("../img/icon.png") no-repeat -150px -43px;
-    position: absolute;
-    top: 40px;
-    right: -50px;
-}
-
-.banner-content--next:hover {
-    background: url("../img/icon.png") no-repeat -193px -43px;
-}
-.banner-content--slide {
-    padding: 0px 20px;
-    overflow: hidden;
-}
-
-.banner-content--list{
-    float: left;
-    width: 50%;
-    /* text-align: center; */
-}
-
-.banner-content--list:first-child{
-    text-align: left;
-}
-
-.banner-content--list:last-child{
-    text-align: right;
-}
-
-.banner-content--item {
-    border: 4px solid #dcdcdc;
-}
-
-.banner-content--item:hover {
-    border: 4px solid #98bcbc;
 }

@@ -24,4 +24,4 @@ https://www.youtube.com/c/GTCoding
 
 ## 4. select-box
 
-<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/완성본_이미지/select-box.PNG" width="800px"></a>
+<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/완성본_이미지/select-box.PNG" width="400px"></a>

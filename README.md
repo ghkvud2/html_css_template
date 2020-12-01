@@ -12,16 +12,16 @@ https://www.youtube.com/c/GTCoding
 
 ## 1. Profile-card
 
-<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/image/profile-card.PNG" width="800px" alt="sample image"></a>
+<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/완성본_이미지/profile-card.PNG" width="800px"></a>
 
 ## 2. Login-form
 
-<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/image/login-form.PNG" width="800px" alt="sample image"></a>
+<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/완성본_이미지/login-form.PNG" width="800px"></a>
 
 ## 3. back-to-top (우하단에 위로 바로가기 버튼 생성)
 
-<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/image/back-to-top.PNG" width="800px" alt="sample image"></a>
+<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/완성본_이미지/back-to-top.PNG" width="800px"></a>
 
 ## 4. select-box
 
-<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/image/select-box.PNG" width="800px" alt="sample image"></a>
+<a href="#"><img src="https://github.com/ghkvud2/html_css_template/blob/master/완성본_이미지/select-box.PNG" width="800px"></a>

@@ -4,7 +4,6 @@ tabMenuBtn.forEach(btn => {
 
     btn.addEventListener("click", () => {
 
-        // 현재 active 요소를 비활성화
         const currentActiveBtn = document.querySelector(".tab-menu--btn.active");
         const currentActiveContent = document.getElementById(currentActiveBtn.getAttribute("data-tab"));
         removeActive(currentActiveBtn);
